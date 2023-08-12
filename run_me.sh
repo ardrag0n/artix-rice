@@ -11,5 +11,6 @@ chattr +i /usr/share/libalpm/scripts/dracut-install
 find /boot -maxdepth 1 -type f -delete
 mkdir -p /efi/EFI/artix/
 pacman -S intel-ucode dracut broadcom-wl-dkms
+echo "Add fish_variables from system-configs"
 
 
